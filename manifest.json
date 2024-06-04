@@ -1,0 +1,12 @@
+{
+  "name": "ieb-modal-blocker",
+  "description": "Invertirenbolsa.info Modal blocker",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://foro.invertirenbolsa.info/forum/*"],
+      "css": ["modal-blocker.css"]
+    }
+  ]
+}
